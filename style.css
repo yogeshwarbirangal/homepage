@@ -1,0 +1,464 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+
+    padding:2rem !important;
+    background: rgb(255, 254, 253) !important;
+    box-shadow: 5px 5px 10px rgb(177, 175, 175);
+  
+}
+
+.navbar-brand{
+
+        margin-left: 20rem !important;
+        font-size: 2rem !important;
+        font-weight: 600 !important;
+}
+.collapse{
+
+    margin-left: 25rem !important;
+}
+
+.nav-item{
+
+    padding-right: 2rem !important;
+}
+.nav-link{
+
+    font-size: 1.5rem !important;
+    color:black !important;
+}
+
+.header .container{
+
+    margin-top: 10rem !important;
+    
+}
+
+.header-info{
+    margin-top: 10rem;
+}
+
+.header-info h1{
+
+        font-size:3.5rem;
+        font-weight: 700;
+        color:rgb(44, 14, 82);
+        margin-bottom: 2rem;
+}
+
+.header-info p{
+
+        font-size: 1.5rem;
+        font-weight: 500;
+        color:grey;
+        margin-bottom: 2rem;
+
+}
+.header-btn{
+
+    margin-top: 5rem;
+}
+
+.header-btn-work{
+
+        font-size: 1.4rem;
+        font-weight: 600;
+        color:white;
+        padding:2rem 3rem;
+        margin-right: 1.3rem;
+        background: rgb(252, 135, 26);
+}
+.header-btn-portfolio{
+
+    font-size: 1.4rem;
+    font-weight: 600;
+ 
+    color:white;
+    padding:2rem 3rem;
+    margin-right: 1.3rem;
+    background: rgb(226, 53, 68);
+}
+
+.intro-company{
+
+        background: rgb(253, 252, 252);
+}
+.company-info{
+
+        padding-top: 10rem;
+}
+.company-info h2{
+
+    color:rgb(255, 102, 0);
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.company-info h4{
+
+    color:rgb(2, 2, 85);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.company-info p{
+
+    color:grey;
+    font-size: 1.3rem;
+}
+
+.specality{
+
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+.ethic-header{
+
+    margin-left: 18rem;
+    margin-bottom: 5rem;
+    
+}
+
+.ethic-header h2{
+
+    font-size: 3rem;
+    font-weight: 600;
+    color:rgb(5, 85, 5);
+
+}
+
+
+.card {
+
+    height: 55vh !important;
+    background: rgb(255, 255, 255) !important;
+    border-radius: 30px !important;
+    box-shadow: 5px 8px 5px #d3d3d3;
+}
+.card:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+  }
+.card img{
+
+
+        width: 10vh !important;
+        border: 1px  solid rgb(209, 209, 209);
+        border-radius: 50%;
+        margin-top: 5rem !important;
+        margin-left: 7rem !important;
+}
+
+.card-title{
+
+    text-align: center !important;
+    color:rgb(2, 2, 73) !important;
+}
+
+.card-text{
+
+    text-align: center;
+    color:grey;
+}
+
+.card .btn{
+
+    margin-left: 5rem !important;
+    margin-top: 1rem !important;
+}
+
+.card .btn:hover{
+
+    border: 1pxs solid crimson !important;
+    background: crimson !important;
+}
+
+.service-header {
+
+  margin-left: 16rem;
+  margin-bottom: 4rem;
+}
+
+.service-header h2{
+
+    color:rgb(194, 21, 21);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.service-header h3{
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:rgb(5, 5, 85);
+}
+
+.services{
+
+    margin-bottom: 5rem;
+}
+
+.col-md-4 h3{
+
+        padding-top: 2rem;
+        padding-left: 2rem;        
+        color:rgb(4, 4, 92);
+}
+
+.col-md-4 p{
+
+        padding: 1rem 2rem;
+        margin-bottom: 2rem;
+        color: grey;
+}
+
+.col-md-4 a{
+
+    color:white;
+    text-decoration: none;
+    padding:1rem 2rem;
+  
+    margin-left: 2rem;
+    background: crimson;
+
+}
+
+
+
+footer{
+
+ 
+    background: rgb(53, 53, 139);
+    height: 40vh;
+}
+.footer-container{
+
+    
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.company-info-footer h3{
+
+    margin-bottom: 1rem;
+}
+.company-info-footer{
+
+        color:white;
+        padding: 3rem;
+}
+
+.company-social-media i{
+
+        margin-top: 1rem;
+        font-size: 2rem;
+        padding: 0 1rem;
+        cursor: pointer;
+
+}
+
+.site-map{
+
+    color:white;
+    padding: 3rem;
+}
+.site-map h3{
+
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+}
+.site-map ul li{
+
+    font-size: 1.2rem;
+}
+.contact-us{
+ 
+    color:white;
+    padding: 3rem;
+}
+.contact-icon{
+
+    display: flex;
+    flex-direction: column;
+}
+.contact-icon i{
+
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+.contact-icon a{
+
+    margin-left: 1rem;
+    color:white;
+}
+.contact-icon a:hover{
+
+    color:black;
+}
+
+.copyright p{
+
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:856px){
+
+    
+    .navbar-brand{
+
+        margin-left:0rem !important;
+    }
+
+    .collapse{
+
+        margin-left:0 !important;
+    }
+    
+    .navbar-toggler i{
+
+        font-size: 1.8rem;
+    }
+
+    .header .container{
+
+        margin-top:3rem !important;
+        
+    }
+    .header-info h1{
+
+        font-size:2rem;
+        font-weight: 700;
+        color:rgb(44, 14, 82);
+        margin-bottom: 2rem;
+    }
+    .header-info p{
+
+        font-size: 1.2rem;
+        font-weight: 500;
+        color:grey;
+        margin-bottom: 2rem;
+
+    }
+
+    .header-btn-work{
+
+        
+        font-weight: 600;
+        color:white;
+        padding:2rem;
+        margin-right:1rem;
+        background: rgb(252, 135, 26);
+    }
+
+    .header-btn-portfolio{
+
+    font-weight: 600;
+    color:white;
+    padding:2rem;
+    background: rgb(226, 53, 68);
+ }
+
+ .header-btn a{
+
+    font-size: 1.1rem;
+    text-align: center;
+ }
+
+ .ethic-header{
+
+    margin-left: 1.3rem;
+ }
+
+ .ethic-header h2{
+
+    font-size: 2.5rem;
+ }
+ .card{
+
+    width: auto !important;
+    }
+
+    .card img{
+
+
+        width: 10vh !important;
+        border: 1px  solid rgb(209, 209, 209);
+        border-radius: 50%;
+        margin-top: 5rem !important;
+        margin-left: 2rem !important;
+}
+
+.card-title{
+
+    text-align: start !important;
+    color:rgb(2, 2, 73) !important;
+}
+
+.card-text{
+
+    text-align: start;
+    color:grey;
+}
+
+.card .btn{
+
+    margin-left: 1rem !important;
+    margin-top: 1rem !important;
+}
+
+.card .btn:hover{
+
+    border: 1pxs solid crimson !important;
+    background: crimson !important;
+}
+    .service-header {
+
+        margin-left: 1.2rem;
+        margin-bottom: 4rem;
+      }
+
+      .service-header h2{
+
+        font-size: 2.5rem;
+      }
+      .service-header h3{
+          font-size: 1.5rem;
+      }
+
+    .col-md-4{
+
+        margin-top: 3rem !important;
+        
+    }
+    footer{
+
+ 
+        background: rgb(53, 53, 139);
+        height: auto;
+    }
+    .footer-container{
+    
+        display: flex;
+       flex-direction: column;
+    }
+
+    .site-map{
+
+        margin-left: 1rem;
+    }
+
+}
